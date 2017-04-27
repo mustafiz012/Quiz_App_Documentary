@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lock_color">#5c8dba</color>
+    <color name="unlock_color">#ffffff</color>
+</resources>

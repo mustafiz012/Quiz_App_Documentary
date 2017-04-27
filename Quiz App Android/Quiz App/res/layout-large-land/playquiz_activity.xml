@@ -1,0 +1,109 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main_question_bg" >
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <TextView
+            android:id="@+id/text_timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/time_bg"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="#f2f2f2"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_point"
+            android:layout_width="67dp"
+            android:layout_height="74dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/q_scrore"
+            android:gravity="center"
+            android:text="0"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/text_question"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_below="@+id/header"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:paddingTop="8dp"
+        android:textSize="30sp"
+        android:text="Hitler party which came into power in 1933 is known as"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/btn_optionB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_optionA"
+        android:layout_alignBottom="@+id/btn_optionA"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/selector"
+        android:gravity="center"
+        android:text="Hitler partygyer"
+        android:textColor="#f2f2f2"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_optionC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_optionA"
+        android:layout_below="@+id/btn_optionA"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/selector"
+        android:gravity="center"
+        android:text="Hitler partyet"
+        android:textColor="#f2f2f2"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_optionD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_optionB"
+        android:layout_below="@+id/btn_optionB"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/selector"
+        android:gravity="center"
+        android:text="OptHitler partyD"
+        android:textColor="#f2f2f2"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_optionA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/text_question"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/selector"
+        android:gravity="center"
+        android:text="Hitler partyff"
+        android:textColor="#f2f2f2"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

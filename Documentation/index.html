@@ -1,0 +1,340 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Quiz App</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;Quiz App&rdquo; Documentation by &ldquo;Viavi WebTech-India&rdquo; v1.0</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;Quiz App&rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 21-May-2014<br>
+					Company: Viavi WebTech-India<br>
+					Contact: <a href="http://codecanyon.net/user/viaviwebtech?ref=viaviwebtech">CodeCanyon Profile</a>
+
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing the app. If you have any questions that are beyond the scope of this help file, please feel free to message me via my user page contact form <a href="http://codecanyon.net/user/viaviwebtech?ref=viaviwebtech">here</a>. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ul>
+			<li><a href='#eclipseversion'>Which Eclipse version is needed?</a></li>
+			<li><a href='#importproject'>How to open the project in Eclipse?</a></li>			
+			<li><a href='#packagename'>How to change the package name?</a></li>
+			<li><a href='#appname'>How to change app name?</a></li>
+			<li><a href='#serverconfig'>How to Configure Webservice In Your Server</a></li>	
+			<li><a href='#serverurl'>Where to put Server Url in Application?</a></li>	
+			<li><a href='#howtoadd'>How to add Level and it's Questions into webservice?</a></li>	
+             <li><a href='#bgmusic'>How to Change Right and Wrong Answer Music?</a></li>		
+			<li><a href='#admob_id'>How to change AdMob publisher id?</a></li>
+			<li><a href='#startapp_id'>How to change StartApp Ad Id/Developer Id?</a></li>			
+			<li><a href='#about'>How to change 'About' section?</a></li>		
+			<li><a href='#splash'>How to change 'Splash Screen and Application Icon' ?</a></li>		
+ 		 	<li><a href="#graphics">Graphics</a></li>			
+			<li><a href="#showcase">App Showcase</a></li>
+			<li><a href="#rating">Rating</a></li>
+<!--
+			<li><a href="#changelog">Changelog</a></li>
+-->
+			 
+		 
+		 
+		
+		
+		<h3 id="eclipseversion"><strong>Which Eclipse version is needed?</strong> - <a href="#toc">top</a></h3>
+		<p>
+			Latest Eclipse version is recommended, which can be downloaded from here:<br />
+			<a href='http://developer.android.com/sdk/index.html'>http://developer.android.com/sdk/index.html</a>
+		</p> 
+		
+		<hr>
+		
+		
+		<h3 id="importproject"><strong>How to open the project in Eclipse?</strong> - <a href="#toc">top</a></h3>	
+			
+		 		
+		<div style='float:right; padding:0 0 20px 20px'><a href='assets/images/import_1.png'><img src='assets/images/import_1.png' alt='' title='Click to view' height='100' style='border:1px solid #aaa'></a></div>	
+		
+		
+			
+		<p>
+			<ol>
+				<li>Open Eclipse > Import > Android > "Existing Android Code into Worksplace" > Next </li>
+				<li>Root Directory > Click Browse button & browse the project folder  > Select  projects Quiz App and google-play-services_lib</li>
+               	<li>Then go to 'Project' Menu > Clean.. > Clean All Projects > OK</li>
+				<li>Wait for few minutes until all errors are gone.</li>
+			</ol>
+		</p> 
+		
+		<hr>
+		
+		
+		<h3 id="packagename"><strong>How to change the package name?</strong> - <a href="#toc">top</a></h3>
+
+		<div style='float:right; padding:0 0 20px 20px; width:400px;'>
+		
+			<div style="float:left; margin:2px 5px;"><a href='assets/images/packagename_1.png'><img src='assets/images/packagename_1.png' alt='' title='Click to view' height='100' style='border:1px solid #aaa'></a></div>
+			<div style="float:left; margin:2px 5px;"><a href='assets/images/packagename_2.png'><img src='assets/images/packagename_2.png' alt='' title='Click to view' height='100' style='border:1px solid #aaa'></a></div>		
+			<div style="float:left; margin:2px 5px;"><a href='assets/images/packagename_3.png'><img src='assets/images/packagename_3.png' alt='' title='Click to view' height='100' style='border:1px solid #aaa'></a></div>
+			<div style="float:left; margin:2px 5px;"><a href='assets/images/packagename_4.png'><img src='assets/images/packagename_4.png' alt='' title='Click to view' height='100' style='border:1px solid #aaa'></a></div>		
+ 			<div style="float:left; margin:2px 5px;"><a href='assets/images/packagename_5.png'><img src='assets/images/packagename_5.png' alt='' title='Click to view' height='100' style='border:1px solid #aaa'></a></div>	
+		</div>
+		
+		<p>
+			You can change it easily from Eclipse. Here are the steps: 
+			<ul>
+				<li>Right Cilck 'Quiz App' project from Package Explorer > Android Tools > Rename Application Package > Finish.</li>
+				<li>Refactroing dailog present and click Finish</li>
+				<li>Package Name Changed in AndroidMainfest.xml but not in Application Package hierarchy so select Package name Right Click >
+				Go to Refactor > Rename >Enter Package Name > Finish</li>
+			</ul>			
+		</p> 
+		
+		<hr>
+		
+		
+		<h3 id="appname"><strong>How to change app name?</strong> - <a href="#toc">top</a></h3>
+		
+		<div style='float:right; padding:0 0 20px 20px'><a href='assets/images/appname_3.png'><img src='assets/images/appname_3.png' alt='' title='Click to view' height='100' style='border:1px solid #aaa'></a></div>		
+		<div style='float:right; padding:0 0 20px 20px'><a href='assets/images/appname_2.png'><img src='assets/images/appname_2.png' alt='' title='Click to view' height='100' style='border:1px solid #aaa'></a></div>	
+		<div style='float:right; padding:0 0 20px 20px'><a href='assets/images/appname_1.png'><img src='assets/images/appname_1.png' alt='' title='Click to view' height='100' style='border:1px solid #aaa'></a></div>	
+		<p>
+			<ol>
+				<li>Open Eclipse >Quiz App> res > values > strings.xml</li>
+				<li>Select 'strings.xml' tab next to 'Resources' tab</li>
+				<li>Enter your app name inside <b>"app_name"</b> string tag:<br /><code>&lt;string name="app_name"&gt;<b>Quiz App</b>&lt;/string&gt;</code></li>
+				<li>if you want change Project name also then >Right Cilck 'Quiz App' project from Package Explorer >Refactor > Rename >Enter Application Name > Finish</li>
+			</ol>
+			This will change both title inside the app & app icon name.
+		</p> 
+		
+		<hr>
+		
+		
+		
+		<h3 id="serverconfig"><strong>How to Configure Webservice In Your Server?</strong> - <a href="#toc">top</a></h3>
+		<div style='float:right; padding:0 0 20px 20px'><iframe width="420" height="345" src="http://www.youtube.com/embed/LxFxg4WXORo" style='border:1px solid #aaa'></iframe></div>	
+		
+		<p>
+			<ol>
+				<li>First of all find the Quiz App folder from the downloaded package.</li>
+				<li>Copy these folder and paste it in the htdocs  folder(if you have Wampp installed then put it into www)</li>
+				<li>Then create a database and import the database from the db folder.</li>
+				<li>4.Aftre creating database configure the connection file,which is in the includes folder of your package.<br>
+
+					<b>$serverIp="localhost"; <br> 
+					$userName="root";<br>
+					$password="";<br>
+					$dbname="quiz_db";<br></b>
+	
+				That’s all,now run the webservice : <b>http://localhost/Quiz_app/index.php</b>
+				for <b>Live set up </b>Follow the video tutorial ahead.
+</li>
+			</ol>
+			
+		</p> 
+		
+		
+		<hr>
+
+	<h3 id="serverurl"><strong>Where to put Server Url in Application?</strong> - <a href="#toc">top</a></h3>
+	
+	<div style='float:right; padding:0 0 20px 20px'><a href='assets/images/serverurl_1.png'><img src='assets/images/serverurl_1.png' alt='' title='Click to view' height='100' style='border:1px solid #aaa'></a></div>		
+	
+	<p>
+			<ol>
+				<li>Select Project > go to com.example.util package > Constant.java Class</li>
+				<li> Open Constant.java</li>
+				<li> now if your Sever is http://abc.com so your service url like that <b>http://abc.com/api.php</b> and </br><b>http://abc.com/api.php?level_id=</b>  </li>
+				
+			</ol>
+			</p>
+	
+	<hr>
+	
+		<h3 id="howtoadd"><strong>How to add Level and its Questions into webservice?</strong> - <a href="#toc">top</a></h3>
+		
+		<div style='float:right; padding:0 0 20px 20px; width:400px;'>
+		
+			<div style="float:left; margin:2px 5px;"><a href='assets/images/howtoadd_1.png'><img src='assets/images/howtoadd_1.png' alt='' title='Click to view' height='100' style='border:1px solid #aaa'></a></div>
+			<div style="float:left; margin:2px 5px;"><a href='assets/images/howtoadd_2.png'><img src='assets/images/howtoadd_2.png' alt='' title='Click to view' height='100' style='border:1px solid #aaa'></a></div>		
+			<div style="float:left; margin:2px 5px;"><a href='assets/images/howtoadd_3.png'><img src='assets/images/howtoadd_3.png' alt='' title='Click to view' height='100' style='border:1px solid #aaa'></a></div>
+			<div style="float:left; margin:2px 5px;"><a href='assets/images/howtoadd_4.png'><img src='assets/images/howtoadd_4.png' alt='' title='Click to view' height='100' style='border:1px solid #aaa'></a></div>		
+			
+        
+		</div>
+			
+		<p>
+		open your admin panel</br>
+		<b>Now we first uploade Level</b>
+		<ol>
+			<li>Go to Manage Level.</li>
+			<li>Press Add Level.</li>
+			<li>Enter Level Name. </li>
+			<li>Enter Require Point.</li>
+            
+		</ol>
+		
+		<b>Now we enter the LevelWise Questions Detail</b>
+		<ol>
+			<li>Go to Questions</li>
+			<li>press Add New Questions</li>
+			<li>Then Select Level</li>
+			<li>Enter Questions,Options,Answer and Submit</li>
+			 
+		</ol>
+		</p>
+		<hr>
+	<h3 id="bgmusic"><strong>How to Change Right and Wrong Answer Music?</strong> - <a href="#toc">top</a></h3>
+		
+		<div style='float:right; padding:0 0 20px 20px; width:400px;'>
+		
+			<div style="float:left; margin:2px 5px;"><a href='assets/images/music_1.png'><img src='assets/images/music_1.png' alt='' title='Click to view' height='100' style='border:1px solid #aaa'></a></div>
+			<div style="float:left; margin:2px 5px;"><a href='assets/images/music_2.png'><img src='assets/images/music_2.png' alt='' title='Click to view' height='100' style='border:1px solid #aaa'></a></div>		
+		  
+		</div>
+			
+		 
+		<ol>
+			<li>project > res > raw >change music file</li>
+			<li>change music file name in activity> src > com.viavilab.quizapp> Open PlayQuiz_Activity </li>
+			 
+		</ol>
+        <hr>
+		
+		<h3 id="admob_id"><strong>How to change AdMob publisher id?</strong> - <a href="#toc">top</a></h3>
+		
+		<div style='float:right; padding:0 0 20px 20px'><a href='assets/images/admobid.png'><img src='assets/images/admobid.png' alt='' title='Click to view' height='100' style='border:1px solid #aaa'></a></div>		
+		<p>
+			<ol>
+				<li>Open Eclipse > Quiz App > res > values > strings.xml</li>
+				<li>Select 'strings.xml' tab next to 'Resources' tab</li>
+				<li>Enter your AdMob publisher id inside <b>"admob_publisher_id"</b> string tag:<br /><code>&lt;string name="admob_publisher_id"&gt;<b>Your AdMob ID Here</b>&lt;/string&gt;</code></li>
+				
+			</ol>
+		</p> 
+		<hr>
+		
+		
+		
+		<h3 id="startapp_id"><strong>How to change StartApp Ad Id/Developer Id?</strong> - <a href="#toc">top</a></h3>
+		
+		<div style='float:right; padding:0 0 20px 20px'><a href='assets/images/startapp_2.png'><img src='assets/images/startapp_2.png' alt='' title='Click to view' height='100' style='border:1px solid #aaa'></a></div>
+		
+		<div style='float:right; padding:0 0 20px 20px'><a href='assets/images/startapp_1.png'><img src='assets/images/startapp_1.png' alt='' title='Click to view' height='100' style='border:1px solid #aaa'></a></div>	
+		<p>
+			<ol>
+				<li>Open Eclipse >Quiz App> res > values > strings.xml</li>
+				<li>Select 'strings.xml' tab next to 'Resources' tab</li>
+				<li>Enter your StartApp Application id inside <b>"startapp_app_id"</b> string tag:<br /><code>&lt;string name="startapp_app_id"&gt;<b>Your StartApp Application ID</b>&lt;/string&gt;</code></li>
+				<li>Enter your StartApp Developer id inside <b>"startapp_dev_id"</b> string tag:<br /><code>&lt;string name="startapp_dev_id"&gt;<b>Your StartApp Developer ID</b>&lt;/string&gt;</code></li>
+				<li>Open AndroidMainfiest.xml > Change in Startapp Code</li>
+			</ol>
+		</p> 
+		
+		<hr>
+		
+		
+		
+		<h3 id="about"><strong>How to change 'About' section?</strong> - <a href="#toc">top</a></h3>
+		
+		<div style='float:right; padding:0 0 20px 20px'><a href='assets/images/about.png'><img src='assets/images/about.png' alt='' title='Click to view' height='100' style='border:1px solid #aaa'></a></div>		
+		<p>
+			<ol>
+				<li>Go to: Eclipse > Quiz App > assets >index.html</li>
+				<li>Right click index.html > Open With > Text Editor</li>
+				<li>It will open into a text editor inside Eclipse, make your necessary changes & save</li>
+			</ol>
+			 
+		</p> 
+	<hr>
+	
+	<h3 id="splash"><strong>How to change 'Splash Screen and Application Icon' ?</strong> - <a href="#toc">top</a></h3>
+	
+	<div style='float:right; padding:0 0 20px 20px'><a href='assets/images/appicon.png'><img src='assets/images/appicon.png' alt='' title='Click to view' height='100' style='border:1px solid #aaa'></a></div>	
+	<p>
+		<b>How To Change Application Icon</b>
+		<ol>
+			<li>Open Eclipse >Quiz App > res > drawable-mdpi > appi_con.png</li>
+			<li>Rename your icon with app_icon.png and paste in drawable-mdpi folder</li>
+		</ol>
+		
+		<b>How To Change Splash Screen</b>
+		<ol>
+			<li>Open Eclipse >Quiz App > res > drawable >splash_image.png</li>
+			<li>Rename your splash screen image name and paste in drawable folder</li>
+		</ol>
+		
+	</p>
+	
+	<hr>
+		
+		 
+		
+		<h3 id="graphics"><strong>Graphics</strong> - <a href="#toc">top</a></h3>
+		
+		<p>You will find all image into /res/drawable-mdpi/,/res/drawable-hdpi/,/res/drawable-xhdpi/ folder. Just create your own graphics and replace those files. Create seperate graphics of different device screen sizes & place them into other drawble folders (drawable-hdpi & drawable-xhdpi) with same file name found at drawable-mdpi folder.  Check here for more information: <a href='http://developer.android.com/design/style/devices-displays.html'>Devices and Displays</a> & <a href='http://developer.android.com/guide/practices/screens_support.html'>Supporting Multiple Screens</a>.</p>
+		
+		<hr>
+		
+		
+		
+		<h3 id="showcase"><strong>App Showcase</strong> - <a href="#toc">top</a></h3>
+		
+		<p>Once you will publish your app to Google Play or any other Android store, send us your app link. We will happy to showcase your app into our website & CodeCanyon page.</p> 
+		
+		<hr>
+		
+		
+		
+		<h3 id="rating"><strong>Rating</strong> - <a href="#toc">top</a></h3>
+		
+		<p>If you like our app, we will highly appreciate if you can provide us a rating of 5. You can rate us from your CodeCanyon Menu > Download page.</p> 
+		
+		<hr>
+		
+		
+		 
+						
+		 
+		
+		<hr>
+		
+		
+		
+		<p>Once again, thank you so much for purchasing this app. As I said at the beginning, I'd be glad to help you if you have any questions relating to this app. No guarantees, but I'll do my best to assist. If you have a more general question relating to the apps on CodeCanyon, you might consider visiting the "FAQ / Support" section and asking your question in the "Comments" section at CodeCanyon app detail page.</p> 
+		
+		<p class="append-bottom alt large"><strong>Vishal Parmar</strong><br /><strong><a href='http://www.viavi.in'>Viavi WebTech-India</a></strong></p>
+
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>

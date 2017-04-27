@@ -1,0 +1,11 @@
+Please as per Android Image Naming Convention Don't Put Space in Image Name That You Upload On Server
+
+
+Wrong:
+e.g Image 1
+Image (1)
+Image1 (1)
+
+True:
+Image1
+Image_1

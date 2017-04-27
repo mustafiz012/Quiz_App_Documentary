@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main_bg" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:contentDescription="@string/img_des"
+        android:src="@drawable/logo" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/point_bg"
+        android:orientation="vertical"
+        android:layout_below="@+id/imageView1" 
+        android:id="@+id/pointsec">
+
+        <TextView
+            android:id="@+id/text_gridpoint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp"
+            android:text="@string/points"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#f2f2f2"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <GridView
+        android:id="@+id/grid_stage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:horizontalSpacing="10dp"
+        android:numColumns="3"
+        android:verticalSpacing="10dp"
+       android:layout_above="@+id/adView"
+        android:layout_below="@+id/pointsec" >
+    </GridView>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+         android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        ads:adUnitId="@string/admob_publisher_id" />
+
+</RelativeLayout>
